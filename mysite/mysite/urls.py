@@ -16,6 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 
+# add polls url
 urlpatterns = [
     path('polls/', include('polls.urls')),
     path('kanri/', admin.site.urls),
